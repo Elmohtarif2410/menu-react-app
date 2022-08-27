@@ -1,15 +1,19 @@
+:root {
+    --main-color: #2196f3
+}
+
 /* style header commponant  */
 
 h1 {
     text-align: center;
     padding: 25px;
-    background-color: #777;
+    background-color: var(--main-color);
     color: white;
     margin: 50px 0;
 }
 
 header {
-    background-color: #666;
+    background-color: var(--main-color);
     padding: 25px;
 }
 
@@ -55,7 +59,7 @@ table {
 table tr {
     display: block;
     padding: 20px 35px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #2196f35c;
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +76,10 @@ table tr td, table tr th {
     flex: 1;
 }
 
+table tr td:not(:first-of-type), table tr th:not(:first-of-type) {
+    text-align: center;
+}
+
 table tr .add {
     width: 30px;
     height: 30px;
@@ -80,21 +88,18 @@ table tr .add {
     align-items: center;
     line-height: 30px;
     font-size: 22px;
-    background-color: #eee;
+    background-color: var(--main-color);
+    color: white;
     border-radius: 50%;
     cursor: pointer;
     margin-left: auto;
-}
-
-table tr .add.active {
-    color: white;
-    background-color: #777;
+    opacity: .6;
 }
 
 /* style shoping card */
 
 .shoping .price {
-    background-color: #777;
+    background-color: var(--main-color);
     padding: 25px;
     margin: 50px 0;
     color: white;

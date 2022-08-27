@@ -12,14 +12,15 @@ import Shoping from "./component/shop";
 class App extends Component {
     state = { 
         prodacts: [
-            {id: 1, name: "checken", price: 30, cunt: 0, sell: false},
-            {id: 2, name: "fish", price: 35, cunt: 0, sell: false},
-            {id: 3, name: "tea", price: 5, cunt: 0, sell: false},
-            {id: 4, name: "pipsi", price: 7, cunt: 0, sell: false},
-            {id: 5, name: "prod5", price: 10, cunt: 0, sell: false},
-            {id: 6, name: "prod6", price: 12, cunt: 0, sell: false},
-            {id: 7, name: "prod7", price: 9, cunt: 0, sell: false},
-            {id: 8, name: "prod8", price: 50, cunt: 0, sell: false}
+            {id: 1, name: "Meat", price: 40, cunt: 0, sell: false},
+            {id: 2, name: "grilled meet", price: 50, cunt: 0, sell: false},
+            {id: 3, name: "Grilled chicken", price: 30, cunt: 0, sell: false},
+            {id: 4, name: "Fried Fish", price: 35, cunt: 0, sell: false},
+            {id: 5, name: "Grilled Fish", price: 45, cunt: 0, sell: false},
+            {id: 6, name: "Pepsi", price: 7, cunt: 0, sell: false},
+            {id: 7, name: "coca cola", price: 7, cunt: 0, sell: false},
+            {id: 8, name: "tea", price: 5, cunt: 0, sell: false},
+            {id: 9, name: "coffee", price: 10, cunt: 0, sell: false}
         ]
     }
 

@@ -20,7 +20,11 @@ const Prodact = (props) => {
                             <td>{prodact.name}</td>
                             <td>{prodact.price}</td>
                             <td >
-                                <span className='add' style={(prodact.sell === true) ? {color: "white", background: "#777"} : null} onClick={() => clikedHandil(prodact)}>+</span>
+                                <span className='add' style={(prodact.sell === true) ? {opacity: "1"} : null} onClick={() => clikedHandil(prodact)}>
+                                    {
+                                        (prodact.sell === true) ? "-" : "+"
+                                    }
+                                </span>
                             </td>
                         </tr>
                     )
