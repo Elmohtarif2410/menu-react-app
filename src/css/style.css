@@ -1,0 +1,119 @@
+/* style header commponant  */
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    background-color: #777;
+    color: white;
+    margin: 50px 0;
+}
+
+header {
+    background-color: #666;
+    padding: 25px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* style Menu commponant  */
+
+h1 {
+    font-size: 40px;
+    padding: 25px 0
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    display: block;
+    padding: 20px 35px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+table tr:first-of-type {
+    border-bottom: 2px solid #ccc
+}
+
+table tr:last-of-type {
+    border-bottom: none
+}
+
+table tr td, table tr th {
+    flex: 1;
+}
+
+table tr .add {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 22px;
+    background-color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+table tr .add.active {
+    color: white;
+    background-color: #777;
+}
+
+/* style shoping card */
+
+.shoping .price {
+    background-color: #777;
+    padding: 25px;
+    margin: 50px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoping .price h3 {
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+
+.shoping .price span {
+    font-size: 22px;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.shoping .price span::after {
+    content: "$"
+}
